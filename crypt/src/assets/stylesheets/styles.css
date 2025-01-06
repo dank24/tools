@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.appMainCont {
+  background-color: red;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: 0;
+  align-items: center;
+  flex-direction: column;
+}
+
+.appFirstSec {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 3px solid black;
+}
+
+.appSecondSec {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 4px solid green;
+}
+
+.bodyMainCont {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.bodyFirstSec {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.bodyFirstSec #plainTextInp {
+  width: 200px;
+  height: 55%;
+  width: 95%;
+  outline: none;
+  margin-top: 2%;
+  border: 1px solid blue;
+  border-radius: 2%;
+  background-color: #ceb4b4;
+  display: flex;
+  text-align: start;
+}
+
+.bodySecondSec {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid blue;
+}
+.bodySecondSec #cipherTextDiv {
+  border: 1px solid black;
+  height: 55%;
+  width: 95%;
+}
+
+/*# sourceMappingURL=styles.css.map */
